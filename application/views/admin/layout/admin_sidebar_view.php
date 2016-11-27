@@ -1,5 +1,3 @@
-
-
 <div class="navbar-default sidebar" role="navigation">
     <div class="sidebar-nav navbar-collapse">
         <ul class="nav" id="side-menu">
@@ -15,27 +13,27 @@
                 <!-- /input-group -->
             </li>
             <li>
-                <a href="<?php echo base_url('admin')?>"><i class="fa fa-dashboard fa-fw"></i> หน้าหลัก </a>
+                <a href="<?php echo base_url('admin') ?>"><i class="fa fa-dashboard fa-fw"></i> หน้าหลัก</a>
             </li>
             <li>
-                <a href="#"><i class="fa fa-cogs , fa-spin"></i> จัดการ <span class="fa arrow"></span></a>
+                <a href="#"><i class="fa fa-gears fa-fw"></i> จัดการ<span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
                     <li>
-                        <a href="<?php echo base_url('admin/category')?>">จัดการ หมวดหมู่</a>
+                        <a href="<?php echo base_url('admin/category') ?>">จัดการหมวดหมู่</a>
                     </li>
                     <li>
-                        <a href="<?php echo base_url('admin/news')?>">จัดการข่าว</a>
+                        <a href="<?php echo base_url('admin/news') ?>">จัดการข่าว</a>
                     </li>
                     <li>
-                        <a href="<?php echo base_url('admin/comment')?>">จจัดการความคิดเห็น</a>
+                        <a href="<?php echo base_url('admin/comment') ?>">จัดการความคิดเห็น</a>
                     </li>
                     <li>
-                        <a href="<?php echo base_url('admin/user')?>">จจัดการผู้ใช้งาน</a>
+                        <a href="<?php echo base_url('admin/user') ?>">จัดการผู้ใช้งาน</a>
                     </li>
                 </ul>
                 <!-- /.nav-second-level -->
             </li>
-
+        </ul>
     </div>
     <!-- /.sidebar-collapse -->
 </div>

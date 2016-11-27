@@ -4,9 +4,9 @@
  * Created by PhpStorm.
  * User: lab
  * Date: 27/11/2559
- * Time: 10:56
+ * Time: 10:21
  */
-class Categories_models extends CI_Model
+class News_model extends CI_Model
 {
 
 }

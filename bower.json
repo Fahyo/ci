@@ -1,8 +1,5 @@
 {
   "name": "ci",
-  "authors": [
-    "Butsaba Tatit <yoyofahyo@gmail.com>"
-  ],
   "description": "",
   "main": "",
   "license": "MIT",
@@ -15,9 +12,9 @@
     "tests"
   ],
   "dependencies": {
+    "sb-admin-2": "*",
     "bootstrap": "^3.3.7",
     "animate.css": "^3.5.2",
-    "font-awesome": "fontawesome#^4.7.0",
-    "sb-admin-2": "*"
+    "font-awesome": "fontawesome#^4.7.0"
   }
 }

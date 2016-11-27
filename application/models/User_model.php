@@ -4,9 +4,9 @@
  * Created by PhpStorm.
  * User: lab
  * Date: 27/11/2559
- * Time: 10:57
+ * Time: 10:21
  */
-class Comments_models extends CI_Model
+class User_model extends CI_Model
 {
 
 }

@@ -4,12 +4,11 @@
  * Created by PhpStorm.
  * User: lab
  * Date: 26/11/2559
- * Time: 13:38
+ * Time: 13:03
  */
 class Home extends CI_Controller
 {
-    public function index()
-    {
+    public function index(){
         $this->load->view('layout/header_view');
         $this->load->view('home_view');
         $this->load->view('layout/footer_view');
@@ -19,5 +18,6 @@ class Home extends CI_Controller
     {
         $this->load->view('layout/header_view');
         $this->load->view('test_view');
+        $this->load->view('layout/footer_view');
     }
 }

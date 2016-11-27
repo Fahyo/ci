@@ -1,8 +1,8 @@
-#REWRITE index.php 
+#REWRITE index.php
 #START USING REWRITE ENGINE
 RewriteEngine On
 
-#REWRITE CONDITON 
+#REWRITE CONDITON
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
