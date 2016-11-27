@@ -12,16 +12,16 @@
     <title>SB Admin 2 - Bootstrap Admin Theme</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="bower_components/sb-admin-2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url ('bower_components/sb-admin-2/css/bootstrap.min.css') ?> " rel="stylesheet">
 
     <!-- MetisMenu CSS -->
-    <link href="bower_components/sb-admin-2/css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+    <link href="<?php echo base_url ('bower_components/sb-admin-2/css/plugins/metisMenu/metisMenu.min.css') ?>" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="bower_components/sb-admin-2/css/sb-admin-2.css" rel="stylesheet">
+    <link href="<?php echo base_url ('bower_components/sb-admin-2/css/sb-admin-2.css') ?> " rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="bower_components/sb-admin-2/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo base_url ('bower_components/sb-admin-2/font-awesome-4.1.0/css/font-awesome.min.css') ?> " rel="stylesheet" type="text/css">
 
 </head>
 
